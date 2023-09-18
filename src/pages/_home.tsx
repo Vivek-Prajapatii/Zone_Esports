@@ -2,7 +2,7 @@ import React from "react";
 import BootstrapCarousel from "@/components/carousels/BootStrap";
 import ResponsiveCarousel from "@/components/carousels/ResponsiveCarousel";
 
-function _home() {
+function home() {
   return (
     <div>
       <div style={{ paddingTop: "40px", marginTop: "30px" }}>
@@ -28,4 +28,4 @@ function _home() {
   );
 }
 
-export default _home;
+export default home;
