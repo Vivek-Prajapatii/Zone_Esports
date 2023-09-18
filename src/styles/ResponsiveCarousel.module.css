@@ -6,10 +6,10 @@
   border-radius: 20px;
   overflow: hidden;
   padding: 10px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
 }
 .mySwiper {
-  width: 50%;
+  width: 30%;
 }
 .swipItem {
   text-align: center;

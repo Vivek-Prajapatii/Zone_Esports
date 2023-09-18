@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { SetStateAction, useState } from "react";
 import { items } from "../../../public/Items.json";
 import Carousel from "react-bootstrap/Carousel";
@@ -12,14 +13,14 @@ export default function BootstrapCarousel() {
     setIndex(selectedIndex);
   };
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect}>
+    <Carousel activeIndex={index} onSelect={handleSelect} pause={false}>
       {bootstrap.map((item) => (
-        <Carousel.Item key={item.id} className={styles.itemP} interval={4000}>
+        <Carousel.Item key={item.id} className={styles.itemP} interval={5000}>
           <img src={item.imageUrl} alt="slides" />
           <Carousel.Caption className={styles.caption}>
             <h3>{item.title}</h3>
             <p>{item.body}</p>
-            <button className="btn btn-danger">Visit Docs</button>
+            <button className="btn btn-danger">Register Now</button>
           </Carousel.Caption>
         </Carousel.Item>
       ))}

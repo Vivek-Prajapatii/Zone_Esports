@@ -3,30 +3,44 @@
     "bootstrap": [
       {
         "id": 1,
-        "title": "Be THe Next Champion !!",
-        "body": "Bootstrap Carousel Example",
+        "title": "Be The Next Champion !!",
+        "body": "Register your team in upcoming tournament and get a chance to be featured in Champions list.",
         "imageUrl": "/images/1.jpg",
         "docs": "https://getbootstrap.com/docs/4.0/components/carousel/"
       },
       {
         "id": 2,
-        "title": "City Views",
+        "title": "Be The Next Champion !!",
         "body": "Bootstrap Carousel Example",
         "imageUrl": "/images/2.jpg",
         "docs": "https://getbootstrap.com/docs/4.0/components/carousel/"
       },
       {
         "id": 3,
-        "title": "Wild Life",
-        "body": "Bootstrap Carousel Example",
-        "imageUrl": "https://res.cloudinary.com/kizmelvin/image/upload/v1586799827/kizmelvin/brownlion_qm8hah.jpg",
+        "title": "Be The Next Champion !!",
+        "body": "Be the Winner and get featured on our page",
+        "imageUrl": "/images/cod.webp",
         "docs": "https://getbootstrap.com/docs/4.0/components/carousel/"
       },
       {
         "id": 4,
-        "title": "Foods and Culture",
+        "title": "Be The Next Champion !!",
         "body": "Bootstrap Carousel Example",
-        "imageUrl": "https://res.cloudinary.com/kizmelvin/image/upload/v1587870308/kizmelvin/edvin-johansson-5AylXcpJn1I-unsplash_lbhgod.jpg",
+        "imageUrl": "/images/cod2.jpg",
+        "docs": "https://getbootstrap.com/docs/4.0/components/carousel/"
+      },
+      {
+        "id": 5,
+        "title": "Be The Next Champion !!",
+        "body": "Bootstrap Carousel Example",
+        "imageUrl": "/images/cod3.jpg",
+        "docs": "https://getbootstrap.com/docs/4.0/components/carousel/"
+      },
+      {
+        "id": 6,
+        "title": "Be The King 👑 of this unknown Desert",
+        "body": "Bootstrap Carousel Example",
+        "imageUrl": "/images/miramar.jpg",
         "docs": "https://getbootstrap.com/docs/4.0/components/carousel/"
       }
     ],
