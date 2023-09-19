@@ -1,7 +1,7 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import { items } from "../../../public/Items.json";
-import styles from "../../styles/ResponsiveCarousel.module.css";
+import styles from "../../styles/components/ResponsiveCarousel.module.css";
 
 export default function ResponsiveCarousel() {
   const { swiper } = items;

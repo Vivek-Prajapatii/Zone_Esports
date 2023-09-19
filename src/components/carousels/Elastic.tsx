@@ -1,6 +1,6 @@
 import { items } from "../../../public/Items.json";
 import Carousel from "react-elastic-carousel";
-import styles from "../../styles/Elastic.module.css";
+import styles from "../../styles/components/Elastic.module.css";
 
 const breakPoints = [
   { width: 1, itemsToShow: 1 },

@@ -1,6 +1,6 @@
 import React from "react";
 import BootstrapCarousel from "@/components/carousels/BootStrap";
-import ResponsiveCarousel from "@/components/carousels/ResponsiveCarousel";
+import Link from "next/link";
 
 function home() {
   return (
