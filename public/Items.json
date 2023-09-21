@@ -91,5 +91,51 @@
         "imageUrl": "https://res.cloudinary.com/kizmelvin/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1645534321/kizmelvin/Carousel%20assets/luwadlin-bosman-J1oObe7WWjk-unsplash_f56oh3.jpg"
       }
     ]
-  }
+  },
+  "managementTeam": [
+    {
+      "id": 1,
+      "name": "Dev Shankar Narayan",
+      "role": "CEO",
+      "contact": "9820224377",
+      "place": "Mumbai, India",
+      "email": "DevShankarDipali@gmail.com",
+      "facebook" : "",
+      "instagram" : "",
+      "imageUrl": "https://res.cloudinary.com/kizmelvin/image/upload/c_scale,w_622/v1645534321/kizmelvin/Carousel%20assets/luwadlin-bosman-J1oObe7WWjk-unsplash_f56oh3.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Dev Shankar Narayan",
+      "role": "CEO",
+      "contact": "9820224377",
+      "place": "Mumbai, India",
+      "email": "DevShankarDipali@gmail.com",
+      "facebook": "",
+      "instagram": "",
+      "imageUrl": "https://res.cloudinary.com/kizmelvin/image/upload/c_scale,w_622/v1645534321/kizmelvin/Carousel%20assets/luwadlin-bosman-J1oObe7WWjk-unsplash_f56oh3.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Dev Shankar Narayan",
+      "role": "CEO",
+      "contact": "9820224377",
+      "place": "Mumbai, India",
+      "email": "DevShankarDipali@gmail.com",
+      "facebook": "",
+      "instagram": "",
+      "imageUrl": "https://res.cloudinary.com/kizmelvin/image/upload/c_scale,w_622/v1645534321/kizmelvin/Carousel%20assets/luwadlin-bosman-J1oObe7WWjk-unsplash_f56oh3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Dev Shankar Narayan",
+      "role": "CEO",
+      "contact": "9820224377",
+      "place": "Mumbai, India",
+      "email": "DevShankarDipali@gmail.com",
+      "facebook": "",
+      "instagram": "",
+      "imageUrl": "https://res.cloudinary.com/kizmelvin/image/upload/c_scale,w_622/v1645534321/kizmelvin/Carousel%20assets/luwadlin-bosman-J1oObe7WWjk-unsplash_f56oh3.jpg"
+    }
+  ]
 }
