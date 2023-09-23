@@ -1,38 +1,47 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import BootstrapCarousel from "@/components/carousels/BootStrap";
 import Link from "next/link";
-import { Typography, Grid, Container } from "@mui/material";
+import { Typography, Grid, Container, Button } from "@mui/material";
 import scss from "../styles/pages/home.module.scss";
 
 function home() {
   return (
-    <div className={scss.parent_grid}>
-      <Container>
-        <Grid style={{ paddingTop: "40px", marginTop: "30px" }}>
-          <hr
-            style={{
-              background: "#0d0d0e",
-              height: "1.5px",
-              margin: "2px",
-            }}
-          />
+    <div className={scss.parent_div}>
+      <Container className={scss.container} maxWidth="xl">
+        <Grid className={scss.upper_grid}>
+          <Grid className={scss.inputwrapper}>
+            <span className={scss.placeholder}></span>
+            <span className={scss.subtitle1}>
+              Join the India's best Esports players in a battle for Glory.
+              {/* Join hundreds of Champions who win rewards and prizes daily... */}
+            </span>
+            <span className={scss.subtitle2}>Compete with the best. </span>
+            <Button className={scss.button}>
+              <Grid item className={scss.register_button}>
+                Register Now
+              </Grid>
+            </Button>
+          </Grid>
+          {/* <BootstrapCarousel /> */}
+        </Grid>
+        <Grid className={scss.mid_grid}>
+          <Grid item className={scss.title_grid}>
+            <span className={scss.title}>
+              feel royal by <br /> conquering enemies.
+            </span>
 
-          <Grid>
-            <Typography variant="h1" sx={{ fontFamily: "monospace" }}>
-              Be the next Champion
-            </Typography>
+            <span className={scss.subtitle1}>
+              Join hundreds of Champions who win rewards and prizes daily...
+            </span>
+            <Button className={scss.button}>
+              <Grid item className={scss.register_button}>
+                Explore tournaments 
+              </Grid>
+            </Button>
           </Grid>
 
-          {/* <BootstrapCarousel /> */}
-          <hr
-            style={{
-              background: "#0d0d0e",
-              height: "1.5px",
-              border: "none",
-              margin: "5px",
-            }}
-          />
-          {/* <ResponsiveCarousel /> */}
+          {/* <img src="/images/esports.jpg" alt="phoot missing" /> */}
         </Grid>
       </Container>
     </div>
