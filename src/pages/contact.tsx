@@ -7,16 +7,17 @@ function contact() {
   return (
     <Container className={scss.container} maxWidth={"xl"}>
       <Grid className={scss.outer_container}>
-        {/* <Grid className={scss.card}>
-          <Typography variant="h2" sx={{p:"30px 20px 0px", color: "aliceblue"}}>
+        <Grid className={scss.card}>
+          <Typography
+            variant="h2"
+            sx={{
+              width: "fit-content",
+              height: "fit-content",
+              color: "aliceblue",
+            }}
+          >
             Contact us
           </Typography>
-          <hr></hr>
-        </Grid> */}
-        <Grid className={scss.card}>
-          <Grid className={scss.inputwrapper} sx={{ mt: "0rem", ml:"10%" }}>
-            <span className={scss.placeholder}></span>
-          </Grid>
           <Grid item className={scss.grid_rows} sx={{ mt: "0rem" }}>
             <TextField className={scss.textfield} label="First Name" />
             <TextField className={scss.textfield} label="Last Name" />
@@ -38,10 +39,10 @@ function contact() {
               }}
             />
           </Grid>
-          <Grid item className={scss.grid_rows}>
-            <Button variant="contained" size={"large"} sx={{ mt: 2 }}>
-              Submit
-            </Button>
+          <Grid className={scss.grid_rows}>
+            <div className={scss.button}>
+             SUBMIT
+            </div>
           </Grid>
         </Grid>
       </Grid>
