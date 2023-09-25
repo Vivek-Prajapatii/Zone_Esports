@@ -89,9 +89,38 @@
           background-color: rgb(94, 188, 201);
           color: rgb(99, 46, 42);
           font-family: monospace;
-          border-radius: 80px;
+          border-radius: 180px;
           font-size: 25px;
           font-weight: 600;
+        }
+      }
+    }
+
+    .testimonial_grid {
+      // background-image: url("/images/testimonial-bg.jpg");
+      background-image: url("/images/texture-bg.png");
+
+      background-repeat: no-repeat;
+      background-size: 100vw;
+      filter: saturate(60%);
+
+      .testimonial_title {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(42, 45, 233, 0.74);
+
+        .title3 {
+          text-align: center;
+          width: 70%;
+          span {
+            color: aquamarine;
+            font-weight: 600;
+            font-size: 50px;
+          }
         }
       }
     }

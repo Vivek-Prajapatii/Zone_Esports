@@ -4,6 +4,7 @@ import BootstrapCarousel from "@/components/carousels/BootStrap";
 import Link from "next/link";
 import { Typography, Grid, Container, Button } from "@mui/material";
 import scss from "../styles/pages/home.module.scss";
+import Testimonial from "@/components/carousels/Testimonial";
 
 function home() {
   return (
@@ -25,7 +26,7 @@ function home() {
           {/* <BootstrapCarousel /> */}
         </Grid>
         <Grid className={scss.mid_grid}>
-          <Grid item className={scss.title_grid}> 
+          <Grid item className={scss.title_grid}>
             <span className={scss.title}>
               feel royal by <br /> conquering enemies
             </span>
@@ -35,9 +36,17 @@ function home() {
             </span>
             <Button className={scss.button}>
               <Grid item className={scss.register_button}>
-                Explore tournaments 
+                Explore tournaments
               </Grid>
             </Button>
+          </Grid>
+        </Grid>
+        <Grid className={scss.testimonial_grid}>
+          <Grid className={scss.testimonial_title}>
+            <Grid className={scss.title3}>
+              <span>Dont just take our word for it</span>
+              <Testimonial />
+            </Grid>
           </Grid>
         </Grid>
       </Container>
