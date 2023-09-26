@@ -2,7 +2,16 @@
 import React from "react";
 import BootstrapCarousel from "@/components/carousels/BootStrap";
 import Link from "next/link";
-import { Typography, Grid, Container, Button } from "@mui/material";
+import {
+  Typography,
+  Grid,
+  Container,
+  Button,
+  Card,
+  CardActionArea,
+  CardContent,
+  CardMedia,
+} from "@mui/material";
 import scss from "../styles/pages/home.module.scss";
 import Testimonial from "@/components/carousels/Testimonial";
 
@@ -10,7 +19,7 @@ function home() {
   return (
     <div className={scss.parent_div}>
       <Container className={scss.container} maxWidth="xl">
-        <Grid className={scss.upper_grid}>
+        <Grid container className={scss.upper_grid}>
           <Grid className={scss.inputwrapper}>
             <span className={scss.placeholder}></span>
             <span className={scss.subtitle1}>
@@ -25,7 +34,7 @@ function home() {
           </Grid>
           {/* <BootstrapCarousel /> */}
         </Grid>
-        <Grid className={scss.mid_grid}>
+        <Grid container className={scss.mid_grid}>
           <Grid item className={scss.title_grid}>
             <span className={scss.title}>
               feel royal by <br /> conquering enemies
@@ -41,11 +50,60 @@ function home() {
             </Button>
           </Grid>
         </Grid>
-        <Grid className={scss.testimonial_grid}>
+        <Grid container className={scss.testimonial_grid}>
           <Grid className={scss.testimonial_title}>
             <Grid className={scss.title3}>
               <span>Dont just take our word for it</span>
               <Testimonial />
+            </Grid>
+          </Grid>
+        </Grid>
+        <Grid container className={scss.partners_grid}>
+          <Grid className={scss.partners_title}>
+            <span>Our valuable Partners</span>
+            <hr style={{margin:"0 10rem"}}/>
+            <Grid className={scss.cards}>
+              <Grid className={scss.card}>
+                <img src="/images/cod.webp" alt={"aise hi hai1"} />
+              </Grid>
+              <Grid className={scss.card}>
+                <img src="/images/cod.webp" alt={"aise hi hai1"} />
+              </Grid>
+              <Grid className={scss.card}>
+                <img src="/images/cod.webp" alt={"aise hi hai1"} />
+              </Grid>
+              <Grid className={scss.card}>
+                <img src="/images/cod.webp" alt={"aise hi hai1"} />
+              </Grid>
+              <Grid className={scss.card}>
+                <img src="/images/cod.webp" alt={"aise hi hai1"} />
+              </Grid>
+              <Grid className={scss.card}>
+                <img src="/images/cod.webp" alt={"aise hi hai1"} />
+              </Grid>
+              <Grid className={scss.card}>
+                <img src="/images/cod.webp" alt={"aise hi hai1"} />
+              </Grid>
+              <Grid className={scss.card}>
+                <img src="/images/cod.webp" alt={"aise hi hai1"} />
+              </Grid>
+              <Grid className={scss.card}>
+                <img src="/images/cod.webp" alt={"aise hi hai1"} />
+              </Grid>
+              <Grid className={scss.card}>
+                <img src="/images/cod.webp" alt={"aise hi hai1"} />
+              </Grid>
+              <Grid className={scss.card}>
+                <img src="/images/cod.webp" alt={"aise hi hai1"} />
+              </Grid>
+
+              <Grid className={scss.card}>
+                <img src="/images/cod.webp" alt={"aise hi hai1"} />
+              </Grid>
+              <Grid className={scss.card}>
+                <img src="/images/cod.webp" alt={"aise hi hai1"} />
+              </Grid>
+
             </Grid>
           </Grid>
         </Grid>

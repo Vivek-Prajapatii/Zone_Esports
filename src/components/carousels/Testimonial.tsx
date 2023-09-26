@@ -15,7 +15,7 @@ function Testimonial() {
         <Carousel.Item
           key={"234"}
           className={".itemP"}
-          interval={5000}
+          interval={4000}
           style={{
             backgroundColor: "transparent",
             height: "50vh",
@@ -46,7 +46,7 @@ function Testimonial() {
         <Carousel.Item
           key={"23ddf"}
           className={".itemP"}
-          interval={5000}
+          interval={4000}
           style={{
             backgroundColor: "transparent",
             height: "50vh",
