@@ -17,7 +17,7 @@ import Testimonial from "@/components/carousels/Testimonial";
 
 function home() {
   return (
-    <div className={scss.parent_div}>
+    <div className={scss.parent_div}>1]
       <Container className={scss.container} maxWidth="xl">
         <Grid container className={scss.upper_grid}>
           <Grid className={scss.inputwrapper}>
@@ -61,49 +61,44 @@ function home() {
         <Grid container className={scss.partners_grid}>
           <Grid className={scss.partners_title}>
             <span>Our valuable Partners</span>
-            <hr style={{margin:"0 10rem"}}/>
+            <hr style={{ margin: "0 10rem" }} />
             <Grid className={scss.cards}>
               <Grid className={scss.card}>
                 <img src="/images/cod.webp" alt={"aise hi hai1"} />
+                <span>partner 1</span>
               </Grid>
               <Grid className={scss.card}>
                 <img src="/images/cod.webp" alt={"aise hi hai1"} />
+                <span>partner 2</span>
               </Grid>
               <Grid className={scss.card}>
                 <img src="/images/cod.webp" alt={"aise hi hai1"} />
+                <span>partner 3</span>
               </Grid>
               <Grid className={scss.card}>
                 <img src="/images/cod.webp" alt={"aise hi hai1"} />
+                <span>partner 4</span>
               </Grid>
               <Grid className={scss.card}>
                 <img src="/images/cod.webp" alt={"aise hi hai1"} />
+                <span>partner 5</span>
               </Grid>
               <Grid className={scss.card}>
                 <img src="/images/cod.webp" alt={"aise hi hai1"} />
+                <span>partner 6</span>
               </Grid>
               <Grid className={scss.card}>
                 <img src="/images/cod.webp" alt={"aise hi hai1"} />
+                <span>partner 7</span>
               </Grid>
               <Grid className={scss.card}>
                 <img src="/images/cod.webp" alt={"aise hi hai1"} />
+                <span>partner 8</span>
               </Grid>
               <Grid className={scss.card}>
                 <img src="/images/cod.webp" alt={"aise hi hai1"} />
+                <span>partner 9</span>
               </Grid>
-              <Grid className={scss.card}>
-                <img src="/images/cod.webp" alt={"aise hi hai1"} />
-              </Grid>
-              <Grid className={scss.card}>
-                <img src="/images/cod.webp" alt={"aise hi hai1"} />
-              </Grid>
-
-              <Grid className={scss.card}>
-                <img src="/images/cod.webp" alt={"aise hi hai1"} />
-              </Grid>
-              <Grid className={scss.card}>
-                <img src="/images/cod.webp" alt={"aise hi hai1"} />
-              </Grid>
-
             </Grid>
           </Grid>
         </Grid>

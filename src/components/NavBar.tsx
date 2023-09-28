@@ -21,9 +21,6 @@ function NavBar() {
             <Link href="/tournaments">TOURNAMENTS</Link>
           </li>
           <li>
-            <Link href="/partners">PARTNERS</Link>
-          </li>
-          <li>
             <Link href="/about">ABOUT US</Link>
           </li>
           <li>
