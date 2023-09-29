@@ -1,0 +1,103 @@
+.tournaments_container {
+  // width: 100vw;
+  // height: 100vh;
+  margin: 0;
+  padding: 0;
+
+  .tournaments_grid {
+    margin-top: 4rem;
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-color: rgb(19, 22, 22);
+
+    .landing_image {
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    .card_wrapper {
+      width: 100vw;
+      background-image: url("/images/bg.jpg");
+      background-position: center;
+      background-clip: content-box;
+      background-repeat: no-repeat;
+      img {
+        padding-left: 3rem;
+      }
+
+      .cards {
+        padding: 2rem 2rem 0px 0px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: end;
+        background-color: rgba(0, 0, 0, 0.5);
+
+        .card {
+          margin: 1rem;
+          border-radius: 10px;
+          background-color: rgba(122, 115, 129, 0.411);
+          display: flex;
+          flex-direction: rows;
+          justify-content: space-between;
+          height: 20rem;
+          width: 60%;
+          border-radius: 7px;
+          color: aliceblue;
+          overflow: hidden;
+          clip-path: polygon(
+            25% 0%,
+            100% 0%,
+            100% 75%,
+            85% 100%,
+            0% 100%,
+            0% 0%
+          );
+
+          .data {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: left;
+            width: 36%;
+            margin: 1rem;
+            .member_info {
+              color: white;
+              font-family: monospace;
+              margin: 0.25rem 2rem;
+            }
+          }
+
+          .image {
+            border-radius: 10px;
+            background-color: cadetblue;
+            height: inherit;
+            width: fit-content;
+            max-width: 64%;
+            clip-path: polygon(
+              25% 0%,
+              100% 0%,
+              100% 75%,
+              75% 100%,
+              0% 100%,
+              0% 25%
+            );
+
+            img{
+              // background-size: cover;
+              width: 120%;
+              height: inherit;
+              margin-right: 1rem;
+              padding: 0rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -17,7 +17,7 @@ import Testimonial from "@/components/carousels/Testimonial";
 
 function home() {
   return (
-    <div className={scss.parent_div}>1]
+    <div className={scss.parent_div}>
       <Container className={scss.container} maxWidth="xl">
         <Grid container className={scss.upper_grid}>
           <Grid className={scss.inputwrapper}>
