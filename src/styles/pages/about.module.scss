@@ -1,28 +1,21 @@
 .container {
-  width: 100%;
-  height: 100vh;
   padding: 0px;
-  background-color: transparent;
-  backdrop-filter: blur(50px); /* Apply a blur effect */
-  background-image: url("/images/cod6.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.91);
   font-family: monospace;
 }
 
-.outer_grid {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(0, 0, 0, 0.7);
+.grid_bg {
+  background-image: url("/images/cod6.jpg");
+
+  .outer_grid {
+    padding: 10rem 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
 
   .title {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     width: fit-content;
@@ -34,9 +27,8 @@
     max-width: 55rem;
     display: flex;
     font-family: monospace;
-    height: fit-content;
+    height: 15rem;
     padding: 4rem 3rem;
-    border: 2px;
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.7);
     backdrop-filter: blur(5px);
@@ -44,59 +36,67 @@
   }
 }
 
-.people {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: rgba(0, 0, 0, 0.7);
+.people_bg_img {
+  background-image: url("/images/background 2.jpg");
 
-  .cards {
-    width: fit-content;
+  .people {
     height: fit-content;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
 
-    .card {
-      width: 35rem;
-      height: 18rem;
-      margin: 1rem;
-      border-radius: 10px;
-      background-color: rgba(0, 0, 0, 0.8);
+    .cards {
+      width: fit-content;
+      height: fit-content;
       display: flex;
-      flex-direction: rows;
-      justify-content: space-between;
-      clip-path: polygon(25% 0%, 100% 0%, 100% 75%, 85% 100%, 0% 100%, 0% 0%);
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
 
-      .data {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: left;
-        .member_info {
-          color: white;
-          font-family: monospace;
-          margin: 0.25rem 2rem;
-        }
-      }
-
-      .image {
+      .card {
+        width: 35rem;
+        height: 18rem;
+        margin: 1rem;
         border-radius: 10px;
-        background-color: cadetblue;
-        height: inherit;
-        width: 20rem;
-        clip-path: polygon(
-          25% 0%,
-          100% 0%,
-          100% 75%,
-          75% 100%,
-          0% 100%,
-          0% 25%
-        );
+        background-color: rgba(0, 0, 0, 0.8);
+        display: flex;
+        flex-direction: rows;
+        justify-content: space-between;
+        clip-path: polygon(25% 0%, 100% 0%, 100% 75%, 85% 100%, 0% 100%, 0% 0%);
+
+        .data {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: left;
+          .member_info {
+            color: white;
+            font-family: monospace;
+            margin: 0.25rem 2rem;
+          }
+        }
+
+        .image {
+          border-radius: 10px;
+          background-color: cadetblue;
+          height: 18rem;
+          width: 20rem;
+          clip-path: polygon(
+            25% 0%,
+            100% 0%,
+            100% 75%,
+            75% 100%,
+            0% 100%,
+            0% 25%
+          );
+
+          img {
+            height: inherit;
+            width: inherit;
+          }
+        }
       }
     }
   }

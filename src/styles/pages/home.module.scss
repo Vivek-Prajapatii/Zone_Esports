@@ -2,13 +2,14 @@
   backdrop-filter: blur(50px); /* Apply a blur effect */
   background-color: transparent;
   background-color: rgba(0, 0, 0, 0.91);
-  height: 100vh;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   background-size: cover;
+  margin: 0;
 
   .container {
-    width: 100%;
+    width: 100vw;
     margin-top: 4rem;
     padding: 0px;
 
@@ -56,17 +57,19 @@
     }
 
     .mid_grid {
-      height: 100vh;
+      height: fit-content;
       filter: saturate(100%);
       background-image: url("/images/esports.jpg");
+      background-repeat: no-repeat;
+
 
       .title_grid {
         width: 100vw;
-        height: 100vh;
+        height: fit-content;
         backdrop-filter: blur(3px); /* Apply a blur effect */
         background-color: transparent;
         background-color: rgba(0, 0, 0, 0.5);
-        padding: 5rem;
+        padding: 10rem 5rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -97,16 +100,17 @@
     }
 
     .testimonial_grid {
-      // background-image: url("/images/testimonial-bg.jpg");
-      background-image: url("/images/texture-bg.png");
-
+      background-image: url("/images/testimonial-bg.jpg");
+      // background-image: url("/images/texture-bg.png");
+      height: fit-content;
       background-repeat: no-repeat;
       background-size: 100vw;
       filter: saturate(60%);
 
       .testimonial_title {
         width: 100vw;
-        height: 100vh;
+        height: fit-content;
+        padding: 7rem 0 ;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -126,8 +130,6 @@
     }
 
     .partners_grid {
-      width: 100vw;
-      height: fit-content;
 
       .partners_title {
         backdrop-filter: blur(3px); /* Apply a blur effect */
@@ -144,7 +146,7 @@
           font-size: 50px;
           font-weight: bolder;
           font-family: monospace;
-          color:rgb(57, 73, 87);
+          color: rgb(57, 73, 87);
         }
 
         .cards {
@@ -178,9 +180,9 @@
 
             span {
               margin: 0;
-              padding: .5rem;
+              padding: 0.5rem;
               font-size: 16px;
-              color: aquamarine
+              color: aquamarine;
             }
           }
         }

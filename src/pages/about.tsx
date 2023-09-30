@@ -3,20 +3,20 @@ import {
   Grid,
   Container,
   Typography,
-  Button,
   IconButton,
   Stack,
 } from "@mui/material";
 import scss from "../styles/pages/about.module.scss";
 import React from "react";
 import Management from "../../public/Items.json";
+import "bootstrap/dist/css/bootstrap.min.css";
 import EmailIcon from "@mui/icons-material/Email";
 import FacebookTwoToneIcon from "@mui/icons-material/FacebookTwoTone";
-import InstaIcon from "/images/Insta.svg";
 function about() {
   return (
-    <div>
-      <Container className={scss.container} maxWidth={"xl"}>
+    // <div className={scss.parent_div}>
+    <Container className={scss.container} maxWidth={"xl"}>
+      <Grid className={scss.grid_bg}>
         <Grid className={scss.outer_grid}>
           <Grid className={scss.title}>
             <Grid className={scss.inputwrapper}>
@@ -34,6 +34,8 @@ function about() {
             </Typography>
           </Grid>
         </Grid>
+      </Grid>
+      <Grid className={scss.people_bg_img}>
         <Grid className={scss.people}>
           <Grid className={scss.title}>
             <Grid className={scss.inputwrapper}>
@@ -91,8 +93,9 @@ function about() {
             })}
           </Grid>
         </Grid>
-      </Container>
-    </div>
+      </Grid>
+    </Container>
+    // </div>
   );
 }
 

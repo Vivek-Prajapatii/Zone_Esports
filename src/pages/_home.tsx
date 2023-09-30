@@ -1,16 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import BootstrapCarousel from "@/components/carousels/BootStrap";
-import Link from "next/link";
 import {
-  Typography,
   Grid,
   Container,
   Button,
-  Card,
-  CardActionArea,
-  CardContent,
-  CardMedia,
 } from "@mui/material";
 import scss from "../styles/pages/home.module.scss";
 import Testimonial from "@/components/carousels/Testimonial";

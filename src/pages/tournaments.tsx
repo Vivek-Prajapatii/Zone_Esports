@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function tournaments() {
   return (
-    <Container className={scss.tournaments_container}>
+    <Container className={scss.tournaments_container} >
       <Grid className={scss.tournaments_grid}>
         <Grid className={scss.landing_image}>
           <img src="/images/cod2.jpg" alt="" />
@@ -78,7 +78,7 @@ function tournaments() {
                   Battle for glory brings the best players to the ultimate
                   battleground!
                 </span>
-                <h2>COD</h2>
+                <h2>Free Fire</h2>
 
                 <Stack
                   direction="row"
@@ -100,7 +100,7 @@ function tournaments() {
                 </Stack>
               </Grid>
               <Grid className={scss.image}>
-                <img src="/images/cod.webp" alt="" />
+                <img src="/images/cod5.jpg" alt="" />
               </Grid>
             </Grid>
           </Grid>

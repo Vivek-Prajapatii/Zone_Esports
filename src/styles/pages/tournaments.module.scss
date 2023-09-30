@@ -1,38 +1,48 @@
 .tournaments_container {
-  // width: 100vw;
-  // height: 100vh;
-  margin: 0;
   padding: 0;
+  // width: 1535px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   .tournaments_grid {
     margin-top: 4rem;
-    width: 100vw;
+    width: fit-content;
     height: fit-content;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: center;
+
     background-color: rgb(19, 22, 22);
 
     .landing_image {
+      display: flex;
+      justify-content: center;
+
       img {
-        height: 100%;
-        width: 100%;
+        width: 1535px;
       }
     }
 
     .card_wrapper {
-      width: 100vw;
+      display: flex;
+      justify-content: end;
       background-image: url("/images/bg.jpg");
       background-position: center;
       background-clip: content-box;
       background-repeat: no-repeat;
+
       img {
         padding-left: 3rem;
       }
 
       .cards {
+        width: 100%;
         padding: 2rem 2rem 0px 0px;
         display: flex;
+        margin-right: 6rem;
+
         flex-direction: column;
         flex-wrap: wrap;
         align-items: end;
@@ -46,7 +56,7 @@
           flex-direction: rows;
           justify-content: space-between;
           height: 20rem;
-          width: 60%;
+          width: 55%;
           border-radius: 7px;
           color: aliceblue;
           overflow: hidden;
@@ -64,7 +74,7 @@
             flex-direction: column;
             justify-content: space-around;
             align-items: left;
-            width: 36%;
+            width: 40%;
             margin: 1rem;
             .member_info {
               color: white;
@@ -78,7 +88,7 @@
             background-color: cadetblue;
             height: inherit;
             width: fit-content;
-            max-width: 64%;
+            max-width: 60%;
             clip-path: polygon(
               25% 0%,
               100% 0%,
@@ -88,7 +98,7 @@
               0% 25%
             );
 
-            img{
+            img {
               // background-size: cover;
               width: 120%;
               height: inherit;
