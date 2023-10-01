@@ -1,6 +1,8 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import { SetStateAction, useState } from "react";
+import Avatar from "@mui/material/Avatar";
+import { orange } from "@mui/material/colors";
 
 function Testimonial() {
   //   const { bootstrap } = items;
@@ -30,9 +32,17 @@ function Testimonial() {
               height: "fit-content",
               width: "fit-content",
               fontSize: "18px",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
             }}
           >
-            <h3>testimonial</h3>
+            <Avatar
+              sx={{ backgroundColor: "#ff5100", width: 70, height: 70, mb: 3 }}
+            >
+              SM
+            </Avatar>
             <p>
               When it comes to BGMI tournaments, this website is the ultimate
               destination. The events are well-organized, and I've met some of
@@ -61,9 +71,17 @@ function Testimonial() {
               height: "fit-content",
               width: "fit-content",
               fontSize: "18px",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
             }}
           >
-            <h3>testimonial</h3>
+            <Avatar
+              sx={{ backgroundColor: "#aac06d", width: 70, height: 70, mb: 3 }}
+            >
+              DN
+            </Avatar>
             <p>
               The BGMI tournaments on this platform have truly elevated my
               gaming experience. It's not just about winning; it's about the
