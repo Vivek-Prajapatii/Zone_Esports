@@ -23,14 +23,20 @@ function about() {
               <span className={scss.who_are_we}></span>
             </Grid>
           </Grid>
-          <Grid className={scss.about_us}>
+          <Grid
+            className={scss.about_us}
+            sx={{ border: 1}}
+          >
             <Typography variant={"body1"} sx={{ fontFamily: "monospace" }}>
-              Scout Gaming Group is a licensed and regulated B2B provider of
-              daily fantasy sports and betting solutions. Scout offers the only
-              liquidity network for fantasy sports in Europe and has some of the
-              largest online operators on the client list. Scout is licensed in
-              both Malta and the UK. Scout is listed at Nasdaq OMX Stockholm
-              First North.
+              Welcome to Zone Esports, where gaming enthusiasts unite to compete
+              and conquer! We are a passionate gaming tournament company that
+              thrives on the adrenaline of BGMI and Call of Duty competitions.
+              Our mission is to provide an electrifying platform for gamers of
+              all skill levels to showcase their talents, forge new friendships,
+              and vie for epic prizes. With meticulously organized tournaments
+              and a vibrant gaming community, we're your gateway to the ultimate
+              gaming experience. Join us and let's turn your gaming passion into
+              victories!
             </Typography>
           </Grid>
         </Grid>
@@ -45,7 +51,11 @@ function about() {
           <Grid className={scss.cards}>
             {Management.managementTeam.map((member: any) => {
               return (
-                <Grid className={scss.card} key={member.id}>
+                <Grid
+                  className={scss.card}
+                  sx={{ border: 1 }}
+                  key={member.id}
+                >
                   <Grid className={scss.data}>
                     <Typography
                       variant={"h5"}

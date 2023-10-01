@@ -12,7 +12,7 @@ function Testimonial() {
     setIndex(selectedIndex);
   };
   return (
-    <div>
+    <div style={{marginTop:"2rem"}}>
       <Carousel activeIndex={index} onSelect={handleSelect} pause={false}>
         <Carousel.Item
           key={"234"}

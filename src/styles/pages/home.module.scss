@@ -62,7 +62,6 @@
       background-image: url("/images/esports.jpg");
       background-repeat: no-repeat;
 
-
       .title_grid {
         width: 100vw;
         height: fit-content;
@@ -110,7 +109,7 @@
       .testimonial_title {
         width: 100vw;
         height: fit-content;
-        padding: 7rem 0 ;
+        padding: 7rem 0;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -130,7 +129,6 @@
     }
 
     .partners_grid {
-
       .partners_title {
         backdrop-filter: blur(3px); /* Apply a blur effect */
         background-color: transparent;
@@ -150,10 +148,11 @@
         }
 
         .cards {
-          margin: 1rem 0;
+          margin: 1rem;
           width: fit-content;
           height: fit-content;
           padding: 1rem;
+          padding-bottom: 5rem;
           display: flex;
           flex-direction: row;
           flex-wrap: wrap;
